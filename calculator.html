@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="C:\Users\dhara\OneDrive\Desktop\HTMLPROJECT\css\calculator.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+        <div class="button-container">
+        <button class="button" onclick="currentEntry='';document.querySelector('#display').value=currentEntry">C</button>
+        <button class="button" onclick="currentEntry=currentEntry+'1';document.querySelector('#display').value=currentEntry">1</button>
+        <button class="button" onclick="currentEntry=currentEntry+'2';document.querySelector('#display').value=currentEntry">2</button>
+        <button class="button" onclick="currentEntry=currentEntry+'+';document.querySelector('#display').value=currentEntry">+</button>
+        <button class="button" onclick="currentEntry=currentEntry+'3';document.querySelector('#display').value=currentEntry">3</button>
+        <button class="button" onclick="currentEntry=currentEntry+'4';document.querySelector('#display').value=currentEntry">4</button>
+        <button class="button" onclick="currentEntry=currentEntry+'-';document.querySelector('#display').value=currentEntry">-</button>
+        <button class="button" onclick="currentEntry=currentEntry+'5';document.querySelector('#display').value=currentEntry">5</button>
+        <button class="button" onclick="currentEntry=currentEntry+'6';document.querySelector('#display').value=currentEntry">6</button>
+        <button class="button" onclick="currentEntry=currentEntry+'*';document.querySelector('#display').value=currentEntry">*</button>
+        <button class="button" onclick="currentEntry=currentEntry+'7';document.querySelector('#display').value=currentEntry">7</button>
+        <button class="button" onclick="currentEntry=currentEntry+'8';document.querySelector('#display').value=currentEntry">8</button>
+        <button class="button" onclick="currentEntry=currentEntry+'/';document.querySelector('#display').value=currentEntry">/</button>
+        <button class="button" onclick="currentEntry=eval(currentEntry);document.querySelector('#display').value=currentEntry">=</button>
+        <button class="button" onclick="currentEntry=currentEntry+'9';document.querySelector('#display').value=currentEntry">9</button>
+        <button class="button" onclick="currentEntry=currentEntry+'0';document.querySelector('#display').value=currentEntry">0</button>
+        <button class="button" onclick="currentEntry=currentEntry+'.';document.querySelector('#display').value=currentEntry">.</button>
+        </div>
+    </div>
+    <script src="C:\Users\dhara\OneDrive\Desktop\HTMLPROJECT\scripts\claculator.js">
+    </script>
+</body>
+</html>
